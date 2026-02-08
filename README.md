@@ -10,21 +10,33 @@ This repository contains the **frontend application**, which visualizes logistic
 ## Screenshots
 
 ### Login & Manifest Upload
-![Login](kawrgojumper_screenshots/login.png)
-![Upload Manifest](kawrgojumper_screenshots/upload-manifest.png)
+<p align="center">
+  <img src="kawrgojumper_screenshots/login.png" width="800"/>
+  <br/>
+  <img src="kawrgojumper_screenshots/upload-manifest.png" width="800"/>
+</p>
 
 ### Task Selection
-![Task Selection](kawrgojumper_screenshots/task-selection.png)
+<p align="center">
+  <img src="kawrgojumper_screenshots/task-selection.png" width="800"/>
+</p>
 
 ### Load / Unload Workflow
-![Unload Containers](kawrgojumper_screenshots/unload-containers.png)
-![Load Containers](kawrgojumper_screenshots/load-containers.png)
+<p align="center">
+  <img src="kawrgojumper_screenshots/unload-containers.png" width="800"/>
+  <br/>
+  <img src="kawrgojumper_screenshots/load-containers.png" width="800"/>
+</p>
 
 ### Balancing Operation
-![Balance](kawrgojumper_screenshots/balance.png)
+<p align="center">
+  <img src="kawrgojumper_screenshots/balance.png" width="800"/>
+</p>
 
 ### Completion & Output
-![Summary](kawrgojumper_screenshots/summary.png)
+<p align="center">
+  <img src="kawrgojumper_screenshots/summary.png" width="800"/>
+</p>
 
 ---
 
