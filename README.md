@@ -1,8 +1,9 @@
-## KawrgoJumper (Senior AI/ML Capstone)
+## KawrgoJumper  
+Senior AI / ML Capstone Project — Port Logistics Optimization
 
-KawrgoJumper is an AI/ML senior capstone project that explores how algorithmic planning and optimization can support real-world port logistics operations. The system assists crane operators by generating efficient, step-by-step instructions for container loading, unloading, and ship balancing under realistic operational constraints.
+KawrgoJumper is an AI/ML senior capstone project that explores how algorithmic planning and optimization can support real-world port logistics operations. The system assists operators by generating structured, step-by-step workflows for container loading, unloading, and ship balancing under realistic operational constraints.
 
-This repository contains the **frontend application** used to visualize workflows, guide operators through tasks, and present algorithm-informed decisions.
+This repository contains the **frontend application**, which visualizes logistics workflows and presents algorithm-informed decisions in a clear, human-readable format.
 
 ---
 
@@ -20,47 +21,49 @@ This repository contains the **frontend application** used to visualize workflow
 ![Load Containers](screenshots/load-containers.png)
 
 ### Balancing Operation
-![Balance Containers](screenshots/balance.png)
+![Balance](screenshots/balance.png)
 
 ### Completion & Output
 ![Summary](screenshots/summary.png)
 
 ---
 
-## Project Overview
+## Project Context
 
-Ports operate under strict time, safety, and balance constraints. KawrgoJumper was designed to help operators:
+Modern port operations must balance efficiency, safety, and legal constraints while handling large volumes of cargo under time pressure. Manual planning is error-prone and difficult to scale.
 
-- Load and unload containers efficiently
+KawrgoJumper was developed as a **senior AI/ML capstone** to explore how algorithmic decision-making can:
+- Reduce unnecessary container movements
 - Maintain legal ship balance
-- Minimize total movement time
-- Follow clear, step-by-step instructions to reduce human error
+- Provide interpretable, step-by-step guidance to operators
+- Improve overall operational efficiency
 
-The system models the ship and buffer as grids and accounts for movement costs, buffer constraints, and operational rules while generating optimal or near-optimal sequences of actions.
+The system models the ship and buffer as structured grids and generates action sequences that respect movement costs, balance rules, and operational constraints.
 
 ---
 
 ## AI / Algorithmic Focus
 
-The broader project explored:
-- **Search and optimization strategies** for minimizing total container movement time
+The broader capstone explored:
+- **Search and optimization techniques** to minimize total container movement time
 - **Constraint-based reasoning** for legal ship balancing
-- **Fallback strategies** (e.g., SIFT-based balancing) when optimal solutions are not feasible
-- Translating algorithm outputs into **human-readable, sequential instructions**
+- **Fallback strategies** (e.g., SIFT-style balancing) when optimal solutions are not feasible
+- Translating algorithm outputs into **interpretable sequences of actions**
 
-This frontend emphasizes **interpretability and usability**, ensuring that complex algorithmic decisions are actionable by operators in real time.
+While the machine learning and optimization logic informed system behavior, this frontend emphasizes **clarity, usability, and interpretability**, ensuring algorithmic decisions are actionable in real-world workflows.
 
 ---
 
-## What this application does
+## What This Application Does
 
 - Accepts structured ship manifests
 - Supports two primary tasks:
-  - Load / Unload containers
+  - Load / unload containers
   - Balance ship containers
 - Visualizes ship and buffer layouts as grids
-- Guides users through container movements one step at a time
-- Generates updated outbound manifests and completion summaries
+- Guides users through container movements step by step
+- Displays logs and summaries of completed actions
+- Outputs updated manifests upon completion
 
 ---
 
@@ -73,7 +76,7 @@ This frontend emphasizes **interpretability and usability**, ensuring that compl
 
 ---
 
-## How to run locally
+## How to Run Locally
 
 1. Install Node.js  
 2. Clone the repository  
