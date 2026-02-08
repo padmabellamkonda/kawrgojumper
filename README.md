@@ -10,21 +10,21 @@ This repository contains the **frontend application**, which visualizes logistic
 ## Screenshots
 
 ### Login & Manifest Upload
-![Login](screenshots/login.png)
-![Upload Manifest](screenshots/upload-manifest.png)
+![Login](kawrgojumper_screenshots/login.png)
+![Upload Manifest](kawrgojumper_screenshots/upload-manifest.png)
 
 ### Task Selection
-![Task Selection](screenshots/task-selection.png)
+![Task Selection](kawrgojumper_screenshots/task-selection.png)
 
 ### Load / Unload Workflow
-![Unload Containers](screenshots/unload-containers.png)
-![Load Containers](screenshots/load-containers.png)
+![Unload Containers](kawrgojumper_screenshots/unload-containers.png)
+![Load Containers](kawrgojumper_screenshots/load-containers.png)
 
 ### Balancing Operation
-![Balance](screenshots/balance.png)
+![Balance](kawrgojumper_screenshots/balance.png)
 
 ### Completion & Output
-![Summary](screenshots/summary.png)
+![Summary](kawrgojumper_screenshots/summary.png)
 
 ---
 
@@ -32,55 +32,4 @@ This repository contains the **frontend application**, which visualizes logistic
 
 Modern port operations must balance efficiency, safety, and legal constraints while handling large volumes of cargo under time pressure. Manual planning is error-prone and difficult to scale.
 
-KawrgoJumper was developed as a **senior AI/ML capstone** to explore how algorithmic decision-making can:
-- Reduce unnecessary container movements
-- Maintain legal ship balance
-- Provide interpretable, step-by-step guidance to operators
-- Improve overall operational efficiency
-
-The system models the ship and buffer as structured grids and generates action sequences that respect movement costs, balance rules, and operational constraints.
-
----
-
-## AI / Algorithmic Focus
-
-The broader capstone explored:
-- **Search and optimization techniques** to minimize total container movement time
-- **Constraint-based reasoning** for legal ship balancing
-- **Fallback strategies** (e.g., SIFT-style balancing) when optimal solutions are not feasible
-- Translating algorithm outputs into **interpretable sequences of actions**
-
-While the machine learning and optimization logic informed system behavior, this frontend emphasizes **clarity, usability, and interpretability**, ensuring algorithmic decisions are actionable in real-world workflows.
-
----
-
-## What This Application Does
-
-- Accepts structured ship manifests
-- Supports two primary tasks:
-  - Load / unload containers
-  - Balance ship containers
-- Visualizes ship and buffer layouts as grids
-- Guides users through container movements step by step
-- Displays logs and summaries of completed actions
-- Outputs updated manifests upon completion
-
----
-
-## Tech Stack
-
-- React (Create React App)
-- React Router
-- JavaScript
-- CSS
-
----
-
-## How to Run Locally
-
-1. Install Node.js  
-2. Clone the repository  
-3. Navigate into the project directory  
-4. Install dependencies:
-   ```bash
-   npm install
+KawrgoJumper was developed as a **senior AI/ML capstone** to explore how algorithmic decision-making
