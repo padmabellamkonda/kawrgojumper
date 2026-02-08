@@ -1,52 +1,71 @@
-## CargoJumper
+## KawrgoJumper (Senior AI/ML Capstone)
 
-CargoJumper is a senior AI/ML capstone project that explores how machine learning–informed workflows can support port logistics decisions such as container selection, loading, unloading, and balance checks.
+KawrgoJumper is an AI/ML senior capstone project that explores how algorithmic planning and optimization can support real-world port logistics operations. The system assists crane operators by generating efficient, step-by-step instructions for container loading, unloading, and ship balancing under realistic operational constraints.
 
-This repository contains the **frontend application** used to simulate user workflows and visualize decision-making steps driven by data and predictive models.
+This repository contains the **frontend application** used to visualize workflows, guide operators through tasks, and present algorithm-informed decisions.
 
 ---
 
 ## Screenshots
 
-### Home
-![Home Screen](screenshots/home.png)
-
-### Upload Manifest
+### Login & Manifest Upload
+![Login](screenshots/login.png)
 ![Upload Manifest](screenshots/upload-manifest.png)
 
 ### Task Selection
 ![Task Selection](screenshots/task-selection.png)
 
-### Container Operations
-![Load Containers](screenshots/load-containers.png)
+### Load / Unload Workflow
 ![Unload Containers](screenshots/unload-containers.png)
+![Load Containers](screenshots/load-containers.png)
 
-### Summary
+### Balancing Operation
+![Balance Containers](screenshots/balance.png)
+
+### Completion & Output
 ![Summary](screenshots/summary.png)
 
 ---
 
-## Project context
-This project was developed as part of an **AI/ML senior capstone** focused on improving efficiency and decision support in port logistics.
+## Project Overview
 
-The broader system explored:
-- Using data and predictive modeling to inform cargo movement decisions
-- Translating model outputs into understandable user workflows
-- Evaluating how AI-assisted tools could reduce congestion and operational friction
+Ports operate under strict time, safety, and balance constraints. KawrgoJumper was designed to help operators:
 
-This frontend emphasizes **clarity, usability, and flow**, making complex logistics tasks easier to reason about.
+- Load and unload containers efficiently
+- Maintain legal ship balance
+- Minimize total movement time
+- Follow clear, step-by-step instructions to reduce human error
+
+The system models the ship and buffer as grids and accounts for movement costs, buffer constraints, and operational rules while generating optimal or near-optimal sequences of actions.
+
+---
+
+## AI / Algorithmic Focus
+
+The broader project explored:
+- **Search and optimization strategies** for minimizing total container movement time
+- **Constraint-based reasoning** for legal ship balancing
+- **Fallback strategies** (e.g., SIFT-based balancing) when optimal solutions are not feasible
+- Translating algorithm outputs into **human-readable, sequential instructions**
+
+This frontend emphasizes **interpretability and usability**, ensuring that complex algorithmic decisions are actionable by operators in real time.
 
 ---
 
 ## What this application does
-- Guides users through a multi-step cargo management workflow
-- Supports manifest upload and task selection
-- Simulates container loading, unloading, and balancing processes
-- Provides summaries that reflect decision outcomes
+
+- Accepts structured ship manifests
+- Supports two primary tasks:
+  - Load / Unload containers
+  - Balance ship containers
+- Visualizes ship and buffer layouts as grids
+- Guides users through container movements one step at a time
+- Generates updated outbound manifests and completion summaries
 
 ---
 
-## Tech stack
+## Tech Stack
+
 - React (Create React App)
 - React Router
 - JavaScript
@@ -58,7 +77,7 @@ This frontend emphasizes **clarity, usability, and flow**, making complex logist
 
 1. Install Node.js  
 2. Clone the repository  
-3. Navigate into the project folder  
+3. Navigate into the project directory  
 4. Install dependencies:
    ```bash
    npm install
