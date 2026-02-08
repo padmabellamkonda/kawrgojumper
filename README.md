@@ -5,17 +5,6 @@ KawrgoJumper is an AI/ML senior capstone project that explores how algorithmic p
 
 This repository contains the **frontend application**, which visualizes logistics workflows and presents algorithm-informed decisions in a clear, human-readable format.
 
----
-
-### Balancing Operation
-<p align="center">
-  <img src="kawrgojumper_screenshots/balance.png" width="800"/>
-</p>
-
-### Completion & Output
-<p align="center">
-  <img src="kawrgojumper_screenshots/summary.png" width="800"/>
-</p>
 
 ---
 
